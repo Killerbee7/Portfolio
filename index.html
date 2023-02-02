@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>porfolio Dibya Dahal</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/1a9780a7da.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="././images/Logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact me</a></li>
+    
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Electronics Engineer </p>
+            <p>Fullstack Web Developer</p>
+            <h1>Hi, I'm <span>Dibya Dahal</span</h1>
+        </div>
+      </div>
+    </div>
+<!-- -------About me------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="././images/myself1.jpeg" >
+            </div>
+                <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>A responsible and motivated individual. Good at working and
+                    collaborating with team members to strive for the best possible
+                    results.I am flexible, reliable and possess excellent time keeping
+                    skills.</p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                
+            </div>
+            <div class="tab-contents active-tab" id="education">
+                <ul>
+                    <li>
+                        <span>Electronics Engineering</span><br>Metropolia University of Applied Science, Helsinki(2020)
+                    </li>
+                    <li>
+                        <span>Web Development</span><br>Helsinki Business College, Helsinki(Present)
+                    </li>
+
+                    <li>
+                        <span>Diploma in Computer Hardware and Networking</span><br>Ministry of Labour, Nepal
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li>
+                        <span>Thesis(2020)</span><br>Biometric Fingerprint Voting System
+                    </li>
+                    <li>
+                        <span>Project(2019)</span><br>Electronic devices charging station using exercise bike in an old age home 
+                    </li>
+                    
+                </ul>
+            </div>
+            
+        
+             </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- skill -->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <h2>Web Design and Development</h2>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3"></i>
+                    <i class="fa-brands fa-react"></i>
+                    <i class="fa-brands fa-node-js"></i>
+                    
+
+                </div>
+                <div>
+                    <h2>Electronics Engineering</h2>
+                    <p class="">&#8226  Power Electronics</p>
+                    <p>&#8226  Microcontrollers</p>
+                    <p>&#8226  Embedded Systems</p> <p>&#8226  PCD Design</p>
+                    
+                     
+                </div>
+
+            </div>
+        </div>
+    </div>
+            <!-- ----projects----- -->
+
+     <div id="projects">
+                <div class="container">
+                    <div class="sub-title">My Projects</div>
+                    <div class="project-list">
+                        <div class="project">
+                           <img src="././images/project.jpg" alt="">
+                           <div class="layer">
+                            <h3>Speed Game</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <a href="http://public.bc.fi/s2201206/speedgame/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                           </div>
+                        </div>
+                        <div class="project">
+                            <img src="././images/car.jpg" alt=""> 
+                            <div class="layer">
+                                <h3>Car Database</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <a href="http://public.bc.fi/s2201206/car_database/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                               </div>
+                         </div>
+                         <div class="project">
+                            <img src="./images/i2.jpeg" alt="">
+                            <div class="layer">
+                                <h3>Insurance Point Counter</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <a href="http://public.bc.fi/s2201206/Insurance/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                               </div> 
+                         </div>
+                         <div class="project">
+                            <img src="././images/todo.jpg" alt=""> 
+                            <div class="layer">
+                                <h3>To-Do App</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <a href="http://public.bc.fi/s2201206/todoapp/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                               </div>
+                         </div>
+
+                    </div>
+                    <a href="#" class="btn">See More</a>
+                </div>
+      </div>
+
+      <!-- contact me -->
+
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>dahal.dibya7@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+358406582221</p>
+                <div class="social-icons">
+                    <a href="https://github.com/Killerbee7"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com/dibya-dahal-8a10b1236"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/DDibya7?t=rPEd1PBMC95WZNchnW3GwA&s=09"><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-discord"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    <a href=""><i class="fa-brands fa-reddit"></i></a>
+                </div>
+
+            </div>
+                <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="emai" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" cols="40" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+            </div>
+           
+        </div>
+    
+      </div>
+
+      <div class="to-top">
+        <a href="#header">To Top</i></a>
+      </div>
+      
+      
+      <div class="copyright">
+        
+        <p>Copyright <i class="fa-solid fa-copyright"></i>2022. Dibya Dahal, Helsinki Business College</p>
+      </div>
+      
+      
+    <script src="main.js">
+    </script>
+  </body>
+</html>
