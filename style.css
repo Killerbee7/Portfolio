@@ -186,6 +186,15 @@ nav ul li a:hover::after{
     margin-left: 20px;
     font-weight: 300;
 }
+
+.skills-list img {
+    margin-top: 20px;
+    font-size: 4em;
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    font-weight: 300;
+}
 .skills-list div p{
     display: inline-block;
     list-style: none;
