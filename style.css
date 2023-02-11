@@ -169,9 +169,12 @@ nav ul li a:hover::after{
    .skills-list{
     grid-template-columns: auto;
    }
+
    .header-text{
-    margin-top: 0;
-   }
+    margin-top: 15%;
+    
+}
+   
   }
 .skills-list div{
     background: #262626;
