@@ -170,7 +170,7 @@ nav ul li a:hover::after{
     grid-template-columns: auto;
    }
    .header-text{
-    margin-top: 75%;
+    margin-top: 20%;
    }
   }
 .skills-list div{
