@@ -216,7 +216,7 @@ nav ul li a:hover::after{
 
 .project-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -299,8 +299,14 @@ nav ul li a:hover::after{
 
 }
 .btn:hover{
-    background: #ef4c23;
+    background: #ffffff;
+    color: #ef4c23;
 
+}
+
+.btn i{
+    color: rgb(0, 0, 0);
+    
 }
  /* contact */
 
