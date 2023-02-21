@@ -265,6 +265,8 @@ nav ul li a:hover::after{
 .layer h3{
     font-weight: 500;
     margin-bottom: 20px;
+    color:#ef4c23;
+   
 }
 
 .layer a{
