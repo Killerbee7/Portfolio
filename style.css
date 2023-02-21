@@ -165,17 +165,7 @@ nav ul li a:hover::after{
     margin-top: 50px;
 }
 
-@media only screen and (max-width: 600px) {
-   .skills-list{
-    grid-template-columns: auto;
-   }
 
-   .header-text{
-    margin-top: 15%;
-    
-}
-   
-  }
 .skills-list div{
     background: #262626;
     padding: 40px;
@@ -226,7 +216,7 @@ nav ul li a:hover::after{
 
 .project-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -266,6 +256,7 @@ nav ul li a:hover::after{
     font-weight: 500;
     margin-bottom: 20px;
     color:#ef4c23;
+    
    
 }
 
@@ -527,3 +518,20 @@ flex-basis: 100%;
   .button-91:hover{
     background-color: #ef4c23;
   }
+
+
+  @media only screen and (max-width: 600px) {
+    .skills-list{
+     grid-template-columns: auto;
+    }
+ 
+    .header-text{
+     margin-top: 15%;
+     
+ }
+ .layer h3{
+    margin-top: 25px;
+
+ }
+  
+   }
