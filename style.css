@@ -161,7 +161,7 @@ nav ul li a:hover::after{
 .skills-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
-    grid-gap: 40px;
+    grid-gap: 50px;
     margin-top: 50px;
 }
 
