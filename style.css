@@ -169,6 +169,7 @@ nav ul li a:hover::after{
 .skills-list div{
     background: #262626;
     padding: 40px;
+    height: 400px;
     border-radius: 10px;
     font-weight: 300;
     transition: background 0.5s, transform 0.5s;
