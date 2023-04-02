@@ -298,7 +298,7 @@ nav ul li a:hover::after{
     text-decoration: none;
     color: white;
     transition: 0.5s;
-
+    margin-left: 10%;
 }
 .btn:hover{
     background: #ffffff;
