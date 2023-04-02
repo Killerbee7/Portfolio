@@ -263,7 +263,7 @@ nav ul li a:hover::after{
 }
 
 .layer a{
-    margin-top: 15px;
+    margin-top: 20px;
     color:#ef4c23;
     text-decoration: none;
     font-size: 18px;
@@ -543,10 +543,11 @@ flex-basis: 100%;
      margin-top: 15%;
      
  }
- .layer h3{
+ .layer h3 a{
     margin-top: 10px;
 
  }
+
 
  
   
