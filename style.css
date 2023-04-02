@@ -543,11 +543,14 @@ flex-basis: 100%;
      margin-top: 15%;
      
  }
- .layer h3 a{
-    margin-top: 10px;
+ .layer h3{
+    margin-top: 15px;
 
  }
 
+ .layer a{
+    margin-top: 10px;
+ }
 
  
   
