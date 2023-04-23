@@ -283,6 +283,9 @@ nav ul li a:hover::after{
 .project:hover img{
     transform: scale(1.1);
 }
+.layer p{
+    padding: 5px;
+}
 
 .project:hover .layer{
     height: 100%;
